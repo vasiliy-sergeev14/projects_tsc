@@ -6,10 +6,15 @@
         "target": "es5",
         "jsx": "react-jsx",
         "baseUrl": ".",
+        "paths": {
+            "*": [
+                "./src/*"
+            ]
+        },
         "allowJs": true,
         "moduleResolution": "node",
         "allowSyntheticDefaultImports": true,
-        "esModuleInterop": true
+        "esModuleInterop": true,
     },
     "ts-node": {
         "compilerOptions": {
