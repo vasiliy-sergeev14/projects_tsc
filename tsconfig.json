@@ -11,6 +11,9 @@
                 "./src/*"
             ]
         },
+        "types": [
+            "jest"
+        ],
         "allowJs": true,
         "moduleResolution": "node",
         "allowSyntheticDefaultImports": true,
