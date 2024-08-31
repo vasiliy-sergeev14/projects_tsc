@@ -4,11 +4,10 @@ import { useTheme } from "./providers/ThemeProvider";
 import { AppRouter } from "./providers/router";
 import { Navbar } from 'widgets/Navbar';
 import { Sidebar } from 'widgets/Sidebar';
-import { Suspense } from 'react';
+import { Suspense} from 'react';
 
 const App = () => {
     const { theme } = useTheme()
-
 
     return (
         <div className={classNames('app', { hovered: false, selected: true }, [theme, 'cls2', 'cls3'])}>

@@ -3,5 +3,7 @@
     "Toggle": "Toggle",
     "Main page": "Main page",
     "About page": "About page",
-    "Page not found": "Page not found"
+    "Page not found": "Page not found",
+    "An unexpected error has occurred": "An unexpected error has occurred",
+    "Reload page": "Reload page"
 }
