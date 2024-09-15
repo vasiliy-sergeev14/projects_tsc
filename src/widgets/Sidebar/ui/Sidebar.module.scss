@@ -4,6 +4,7 @@
     background: var(--invert-bg-color);
     position: relative;
     transition: width 0.3s;
+    border-top: 5px solid var(--inverted-primary-color);
 }
 
 .collapsed {
@@ -20,4 +21,13 @@
 
 .lang {
     margin-left: 20px;
+}
+
+.toggle {
+    font-size: 30px;
+    background: none;
+    position: absolute;
+    left: calc(100% - 30px);
+    top: 50%;
+    border: none;
 }
