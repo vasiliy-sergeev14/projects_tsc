@@ -1,0 +1,8 @@
+[build]
+command = "npm run build:prod"
+publish = "build"
+
+[
+build.environment
+]
+NODE_VERSION = "17.4.0" 
